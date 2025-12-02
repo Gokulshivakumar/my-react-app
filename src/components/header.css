@@ -1,0 +1,115 @@
+
+
+.header {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  left: 0;
+  z-index: 999;
+  position: relative;
+}
+
+/* INNER CONTAINER */
+.container {
+  max-width: 1200px;
+  height: 80px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.logo img {
+  width: 60px;
+}
+
+/* NAV MENU DESKTOP */
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+
+.nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* HAMBURGER BUTTON */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 28px;
+  height: 3px;
+  background: #000;
+  border-radius: 3px;
+}
+
+/* ==========================
+   📱 MOBILE / TABLET VIEW
+   ========================== */
+
+@media screen and (min-width: 1024px) {
+  nav.nav {
+    margin-right: 100px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .hamburger {
+    display: flex;
+  }
+
+  /* Hide desktop menu */
+  .nav {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px 0;
+  }
+
+  /* Show menu when open */
+  .nav.open {
+    display: block;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    padding-left: 20px;
+  }
+
+  .nav ul li a {
+    font-size: 18px;
+  }
+}
+
+/* ==========================
+   💻 DESKTOP VIEW
+   ========================== */
+@media (min-width: 769px) {
+  .nav {
+    display: block !important; /* always show menu */
+  }
+}
+
+
+
+
