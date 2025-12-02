@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-react-app/static/css/main.f8ce480d.css",
-    "main.js": "/my-react-app/static/js/main.b2a9921f.js",
+    "main.js": "/my-react-app/static/js/main.f060a38c.js",
     "static/js/453.311b3dbc.chunk.js": "/my-react-app/static/js/453.311b3dbc.chunk.js",
     "static/media/bannertwo.jpg": "/my-react-app/static/media/bannertwo.93d1dd8a6b05c85fcc9d.jpg",
     "static/media/react-native.jpg": "/my-react-app/static/media/react-native.c74358f59ae684778ada.jpg",
@@ -9,11 +9,11 @@
     "static/media/logo.svg": "/my-react-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/my-react-app/index.html",
     "main.f8ce480d.css.map": "/my-react-app/static/css/main.f8ce480d.css.map",
-    "main.b2a9921f.js.map": "/my-react-app/static/js/main.b2a9921f.js.map",
+    "main.f060a38c.js.map": "/my-react-app/static/js/main.f060a38c.js.map",
     "453.311b3dbc.chunk.js.map": "/my-react-app/static/js/453.311b3dbc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8ce480d.css",
-    "static/js/main.b2a9921f.js"
+    "static/js/main.f060a38c.js"
   ]
 }
