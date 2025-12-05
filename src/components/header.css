@@ -1,23 +1,40 @@
+/* =========================
+   GLOBAL SETTINGS
+   ========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+img {
+  max-width: 100%;
+  display: block;
+}
 
 .header {
   width: 100%;
   background: #ffffff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  left: 0;
-  z-index: 999;
-  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* NOT FIXED */
+  z-index: 10;
 }
 
-/* INNER CONTAINER */
-.container {
-  max-width: 1200px;
+/* MAIN ROW */
+.header-row {
   height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 1200px;
   margin: auto;
   padding: 0 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 /* LOGO */
@@ -25,22 +42,21 @@
   width: 60px;
 }
 
-/* NAV MENU DESKTOP */
+/* DESKTOP NAV */
 .nav ul {
-  display: flex;
   list-style: none;
+  display: flex;
   gap: 40px;
 }
 
-
 .nav ul li a {
+  color: #000000;
   text-decoration: none;
-  color: #333;
   font-size: 17px;
   font-weight: 500;
 }
 
-/* HAMBURGER BUTTON */
+/* HAMBURGER (HIDDEN IN DESKTOP) */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -55,24 +71,17 @@
   border-radius: 3px;
 }
 
-/* ==========================
-   📱 MOBILE / TABLET VIEW
-   ========================== */
-
-@media screen and (min-width: 1024px) {
-  nav.nav {
-    margin-right: 100px;
-  }
-}
-
-
+/* =========================
+   MOBILE VIEW
+   ========================= */
 @media (max-width: 768px) {
 
+  /* Show hamburger */
   .hamburger {
     display: flex;
   }
 
-  /* Hide desktop menu */
+  /* Mobile menu hidden by default */
   .nav {
     display: none;
     position: absolute;
@@ -80,15 +89,16 @@
     right: 0;
     width: 100%;
     background: #ffffff;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px 0;
   }
 
-  /* Show menu when open */
+  /* Open menu */
   .nav.open {
     display: block;
   }
 
+  /* Stack mobile menu items */
   .nav ul {
     flex-direction: column;
     text-align: left;
@@ -101,15 +111,9 @@
   }
 }
 
-/* ==========================
-   💻 DESKTOP VIEW
-   ========================== */
+/* DESKTOP ALWAYS SHOW MENU */
 @media (min-width: 769px) {
   .nav {
-    display: block !important; /* always show menu */
+    display: block !important;
   }
 }
-
-
-
-

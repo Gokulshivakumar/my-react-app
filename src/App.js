@@ -3,6 +3,7 @@ import './App.css';
 import Forheader from './components/header';
 import Banner from './components/banner';
 import Sectiontransfer from './components/sectiontwo';
+import Sectionlayerthree from './components/sectiontwo';
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
 <div>
     <Forheader />
     <Banner />
-    <Sectiontransfer />
+    <Sectionlayerthree />
     <p>Gokul</p>
 
 </div>

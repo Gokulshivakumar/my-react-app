@@ -1,8 +1,9 @@
 import section2 from '../assets/images/section2.jpg'
+import './sectiontwo.css';
 
-function Sectiontransfer(){
+function Sectionlayerthree(){
     return(
-        <div className = "container"> 
+        <div className = "containerz"> 
             <div className="leftside">
             <img src={section2} alt='Feature-Img' />
         </div>
@@ -14,4 +15,4 @@ function Sectiontransfer(){
     )
 };
 
-export default Sectiontransfer;
+export default Sectionlayerthree;
