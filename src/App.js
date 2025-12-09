@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import Forheader from './components/header';
 import Banner from './components/banner';
-import Sectiontransfer from './components/sectiontwo';
 import Sectionlayerthree from './components/sectiontwo';
 
 
