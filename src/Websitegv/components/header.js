@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
-  
+
   return (
     <header className="header">
       <div className="container header-row">
@@ -22,7 +22,7 @@ import { Link } from "react-router-dom";
         {/* Desktop + Mobile Menu */}
         <nav className={`nav ${menuOpen ? "open" : ""}`}>
           <ul>
-            <li><a href="/" onClick={() => setMenuOpen(false)}>Home</a></li>
+            <li><a href="home" onClick={() => setMenuOpen(false)}>Home</a></li>
             <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
             <li><a href="#services" onClick={() => setMenuOpen(false)}>Services</a></li>
             <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
