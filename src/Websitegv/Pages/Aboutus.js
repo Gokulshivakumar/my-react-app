@@ -1,5 +1,9 @@
 function Aboutus(){
-    return <h1> About page </h1>
-}
+    return (
+      <div className="page-container" >
+    <h1> About page </h1>
+    <p>Welcome to our About page.</p>
+    </div>);
+};
 
 export default Aboutus;

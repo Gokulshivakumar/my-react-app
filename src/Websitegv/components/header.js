@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import '../assets/stylesheet/header.css';
 import LogoImg from "../assets/images/react-native.jpg";
+import { Link } from "react-router-dom";
 
 
  function Forheader() {
@@ -20,7 +21,7 @@ import LogoImg from "../assets/images/react-native.jpg";
         {/* Desktop + Mobile Menu */}
         <nav className={`nav ${menuOpen ? "open" : ""}`}>
           <ul>
-            <li><a href="#home" onClick={() => setMenuOpen(false)}>Home</a></li>
+            <li><a href="Homepage" onClick={() => setMenuOpen(false)}>Home</a></li>
             <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
             <li><a href="#services" onClick={() => setMenuOpen(false)}>Services</a></li>
             <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
