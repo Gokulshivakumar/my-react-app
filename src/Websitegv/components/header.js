@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
+  
   return (
     <header className="header">
       <div className="container header-row">
