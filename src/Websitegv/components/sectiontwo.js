@@ -1,5 +1,5 @@
 import section2 from '../assets/images/section2.jpg'
-import './sectiontwo.css';
+import '../assets/stylesheet/sectiontwo.css';
 
 function Sectionlayerthree(){
     return(

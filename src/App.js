@@ -1,8 +1,7 @@
 import './App.css';
-import Forheader from './components/header';
-import Banner from './components/banner';
-import Sectionlayerthree from './components/sectiontwo';
-
+import Forheader from './Websitegv/components/header.js';
+import Banner from './Websitegv/components/banner.js';
+import Sectionlayerthree from './Websitegv/components/sectiontwo.js';
 
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
     <Forheader />
     <Banner />
     <Sectionlayerthree />
-    <p>Gokul</p>
+   
 
 </div>
    

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./header.css";
+import '../assets/stylesheet/header.css';
 import LogoImg from "../assets/images/react-native.jpg";
 
  function Forheader() {
