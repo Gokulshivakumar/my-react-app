@@ -13,7 +13,7 @@ function App() {
 
       {/* Page content changes based on URL */}
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/Home" element={<Homepage />} />
         <Route path="/about" element={<Aboutus />} />
         {/* Add more pages like Services, Contact */}
       </Routes>
