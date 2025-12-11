@@ -22,8 +22,8 @@ import { Link } from "react-router-dom";
         {/* Desktop + Mobile Menu */}
         <nav className={`nav ${menuOpen ? "open" : ""}`}>
           <ul>
-            <li><a href="/" onClick={() => setMenuOpen(false)}>Home</a></li>
-            <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
+            <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
+            <li><Link to="/about" onClick={() => setMenuOpen(false)}>About</Link></li>
             <li><a href="#services" onClick={() => setMenuOpen(false)}>Services</a></li>
             <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
           </ul>
