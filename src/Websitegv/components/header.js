@@ -26,6 +26,7 @@ import { Link } from "react-router-dom";
             <li><Link to="/about" onClick={() => setMenuOpen(false)}>About</Link></li>
             <li><a href="#services" onClick={() => setMenuOpen(false)}>Services</a></li>
             <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
+            <li><a href="/test" onClick={() => setMenuOpen(false)}>Test</a></li>
           </ul>
         </nav>
 
