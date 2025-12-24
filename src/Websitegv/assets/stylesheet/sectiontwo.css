@@ -5,7 +5,7 @@
   max-width: 100%;
   /* padding: 20px; */
   gap: 20px; /* space between left and right */
-  background-color: black;
+  background-color: #04d9fc;
 }
 
 /* Left side: image */
@@ -18,9 +18,10 @@
 
 /* Right side: content */
 .rightside {
-  flex: 1; /* take remaining space */
+   /* take remaining space    flex: 1; */
   color: white;
-  text-colo
+   font-size: larger;
+   font-weight: bolder;
 }
 
 /* Responsive: stack on mobile */
