@@ -1,0 +1,30 @@
+.containerz {
+  display: flex;
+  width: 100%;              /* full width */
+  min-height: 80vh;  
+  background-color: #fff;      /* optional: full screen height */
+}
+
+.leftside,
+.rightside {
+  width: 50%;               /* 50 / 50 split */
+  display: flex;
+                  /* align-items: center;*/
+  justify-content: center;
+}
+
+.rightside {
+  align-items: center;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 768px) {
+  .containerz {
+    flex-direction: column;
+    text-align: center;
+  }
+  .leftside img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
