@@ -19,6 +19,8 @@
 /* Right side: content */
 .rightside {
   flex: 1; /* take remaining space */
+  color: white;
+  text-colo
 }
 
 /* Responsive: stack on mobile */
