@@ -1,5 +1,5 @@
 import '../assets/stylesheet/banner.css';
-import Bannertwo from '../assets/images/bannertwo.jpg';
+import Bannertwo from '../assets/images/Banner.png';
 
 function Banner(){
 
