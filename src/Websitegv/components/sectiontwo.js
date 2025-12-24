@@ -8,7 +8,7 @@ function Sectionlayerthree(){
             <img src={section2} alt='Feature-Img' />
         </div>
          <div myclass="rightside">
-            <h1>Loading</h1>
+            <h1>Loadingg</h1>
             </div>
 
         </div>
