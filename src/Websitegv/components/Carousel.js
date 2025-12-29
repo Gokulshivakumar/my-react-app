@@ -27,7 +27,7 @@ function LogoCarousel() {
         style={{ transform: `translateX(-${current * 120}px)` }}
       >
         {images.map((logo, index) => (
-          <img key={index} src={logo} alt="tech logo" />
+          <img key={index} src={logo} alt="tech logos" />
         ))}
       </div>
     </div>
