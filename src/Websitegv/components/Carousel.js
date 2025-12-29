@@ -9,31 +9,30 @@ import '../assets/stylesheet/Carousel.css';
 
 const images  =[html,CSS,js,PHP,WP,react];
 
-function Carousel(){
-      const [current, setCurrent] = useState(0);
-useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % images.length);
-    }, 2000);
+function LogoCarousel() {
+  const [current, setCurrent] = useState(0);
 
-    return () => clearInterval(timer);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % images.length);
+    }, 1500);
+
+    return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="carousel">
-  <div
-    className="carousel-track"
-    style={{ transform: `translateX(-${current * 100}%)` }}
-  >
-    {images.map((img, index) => (
-      <img key={index} src={img} alt="slide" />
-    ))}
-  </div>
-</div>
-
+    <div className="logo-carousel">
+      <div
+        className="logo-track"
+        style={{ transform: `translateX(-${current * 120}px)` }}
+      >
+        {images.map((logo, index) => (
+          <img key={index} src={logo} alt="tech logo" />
+        ))}
+      </div>
+    </div>
   );
 }
 
+export default LogoCarousel;
 
-
-export default Carousel;

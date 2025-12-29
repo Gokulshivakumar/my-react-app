@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my-react-app/static/css/main.4f5c8156.css",
-    "main.js": "/my-react-app/static/js/main.45645429.js",
+    "main.css": "/my-react-app/static/css/main.88bfd458.css",
+    "main.js": "/my-react-app/static/js/main.6c37e036.js",
     "static/js/453.311b3dbc.chunk.js": "/my-react-app/static/js/453.311b3dbc.chunk.js",
     "static/media/bannertwo.jpg": "/my-react-app/static/media/bannertwo.93d1dd8a6b05c85fcc9d.jpg",
     "static/media/react-native.jpg": "/my-react-app/static/media/react-native.c74358f59ae684778ada.jpg",
     "static/media/Part1.jpg": "/my-react-app/static/media/Part1.6eb24fc05e7d7170de9a.jpg",
     "index.html": "/my-react-app/index.html",
-    "main.4f5c8156.css.map": "/my-react-app/static/css/main.4f5c8156.css.map",
-    "main.45645429.js.map": "/my-react-app/static/js/main.45645429.js.map",
+    "main.88bfd458.css.map": "/my-react-app/static/css/main.88bfd458.css.map",
+    "main.6c37e036.js.map": "/my-react-app/static/js/main.6c37e036.js.map",
     "453.311b3dbc.chunk.js.map": "/my-react-app/static/js/453.311b3dbc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f5c8156.css",
-    "static/js/main.45645429.js"
+    "static/css/main.88bfd458.css",
+    "static/js/main.6c37e036.js"
   ]
 }
