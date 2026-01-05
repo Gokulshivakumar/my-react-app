@@ -1,7 +1,7 @@
 import Banner from '../components/banner.js';
 import Section from '../components/partone.js';
-import LogoCarousel from '../components/Carousel.js'
-import React from "react";
+import TechCarousel from '../components/Carousel.js'
+
 
 
 function Homepage(){
@@ -9,7 +9,7 @@ function Homepage(){
         <div className="page-container">
       <Banner />
        <Section />
-       <LogoCarousel />
+       <TechCarousel />
        </div>
    
     );

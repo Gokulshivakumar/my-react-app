@@ -28,3 +28,12 @@
     margin-bottom: 20px;
   }
 }
+@media screen and (max-width: 768px){
+
+  .leftside,
+.rightside {
+  width: 100%;
+
+}
+  
+}
