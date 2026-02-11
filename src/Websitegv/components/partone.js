@@ -10,7 +10,7 @@ function Section(){
          <div className="rightside">
             <h2>Build. Breaks. Learn. Repeats.<br></br>
             <br></br>
-           Code is not just syntax, it’s problem-solving.<br></br>
+           Code is not just syntax, it’s prroblem-solving.<br></br>
               <br></br>
            Turning ideas into interactive experiences.</h2>
             </div>
