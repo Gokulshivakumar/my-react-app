@@ -8,7 +8,7 @@ function Section(){
             <img src={section2} alt='Feature-Img' />
         </div>
          <div className="rightside">
-            <h2>Build. Break. Learn. Repeat.<br></br>
+            <h2>Build. Breaks. Learn. Repeats.<br></br>
             <br></br>
            Code is not just syntax, it’s problem-solving.<br></br>
               <br></br>
